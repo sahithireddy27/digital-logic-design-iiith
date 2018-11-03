@@ -36,7 +36,7 @@ public class GenericElement extends Element implements ElementInterface {
      */
     GenericElement() {
         elementID = 0;
-        elementType = new String();
+        String elementType = "elementType";
         elementName = "Generic_Element";
         numInputs = 0;
         numOutputs = 0;
