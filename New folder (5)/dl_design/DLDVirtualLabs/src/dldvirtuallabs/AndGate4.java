@@ -35,7 +35,7 @@ public class AndGate4 extends Element {
      */
     AndGate4() {
         elementID = 0;
-        elementType = new String();
+        String elementType = "elementType";
         elementName = "And_Gate4";
         numInputs = 0;
         numOutputs = 0;
